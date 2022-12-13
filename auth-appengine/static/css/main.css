@@ -1,0 +1,54 @@
+html, body{
+  margin:0;
+  padding:0;
+  background-color:#FAFAFA;
+  font-family:'Roboto', Arial;
+  color:#545454;
+  font-weight:300;
+  display: flex;
+  height: 100vh;
+}
+
+/* Headers */
+div#main-title{
+  font-size:40px;
+  font-weight:100;
+  margin-left:10px;
+}
+
+div#main-title span.tiny{
+  font-size:20px;
+  font-weight:400;
+  margin:0px 5px;
+}
+
+.report2bq-text-card {
+  position: relative;
+  padding: 5px;
+}
+
+.report2bq-data-card {
+  position: absolute;
+}
+
+.report2bq-card-content {
+  padding: 5px;
+}
+
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: auto;
+  position: relative;
+}
+
+.main-content {
+  height: 100%;
+}
+
+.app-bar {
+  position: absolute;
+}
+
+.mdc-top-app-bar {
+  z-index: 7;
+}
